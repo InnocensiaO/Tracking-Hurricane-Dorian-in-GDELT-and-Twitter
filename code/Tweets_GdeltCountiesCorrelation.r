@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 setwd("/Correlationdata") #set the working dir
 #Source data is in the Correlationdata
 t= read.csv('Tweets_Gdeltcordatawithout0.csv', header = T)
@@ -17,8 +16,8 @@ TweetSep4_GdeltSep4 <- cor.test(t$TweetSep4, t$GdeltSep4, method = "pearson")
 TweetSep5_GdeltSep5 <- cor.test(t$TweetSep5, t$GdeltSep5, method = "pearson")
 
 TweetSep6_GdeltSep6 <- cor.test(t$TweetSep6, t$GdeltSep6, method = "pearson")
-square(TweetTotal_GdeltTotal)
 
+# tbv used in this code is a variable used to dispaly the results in a column
 tbv<-cbind(c(TweetTotal_GdeltTotal,TweetSep1_GdeltSep1, TweetSep2_GdeltSep2, TweetSep3_GdeltSep3,TweetSep4_GdeltSep4, TweetSep5_GdeltSep5, TweetSep6_GdeltSep6))
 
 
@@ -100,4 +99,4 @@ plot(r$TweetSep5~r$GdeltSep5, xlab="GDELT Articles Total per County Sep 5", ylab
 plot(r$TweetSep6~r$GdeltSep6, xlab="GDELT Articles Total per County Sep 6", ylab= "Tweets Total per County Sep 6") 
 
 
->>>>>>> 89007dfe6c10759cd82988c94da3787e561955ec
+
