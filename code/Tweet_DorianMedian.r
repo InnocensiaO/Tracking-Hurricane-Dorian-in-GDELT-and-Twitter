@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 setwd("/TweetProximityData") #set the working dir
 #Source data is in the TweetProximityData
 options(max.print=1000000)
@@ -579,5 +578,3 @@ TrackpointSept6_12PMTweetSept6<-median(dat6$NEAR_DIST)
 
 tbv<-cbind(c(TrackpointSept6_12PMTweetSeptall,TrackpointSept6_12PMTweetSept1, TrackpointSept6_12PMTweetSept2, TrackpointSept6_12PMTweetSept3,TrackpointSept6_12PMTweetSept4, TrackpointSept6_12PMTweetSept5, TrackpointSept6_12PMTweetSept6))
 
-
->>>>>>> 89007dfe6c10759cd82988c94da3787e561955ec
