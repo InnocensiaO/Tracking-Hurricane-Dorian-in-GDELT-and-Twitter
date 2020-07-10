@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 setwd("/GDELTProximityData") #set the working dir
 #Source data is in the GDELTProximityData
 options(max.print=1000000)
@@ -606,4 +605,4 @@ TrackpointSept6_12PMGdeltSept6<-median(dat6$NEAR_DIST)
 
 
 tbv<-cbind(c(TrackpointSept6_12PMGdeltSeptall,TrackpointSept6_12PMGdeltSept1, TrackpointSept6_12PMGdeltSept2, TrackpointSept6_12PMGdeltSept3,TrackpointSept6_12PMGdeltSept4, TrackpointSept6_12PMGdeltSept5, TrackpointSept6_12PMGdeltSept6))
->>>>>>> 89007dfe6c10759cd82988c94da3787e561955ec
+
