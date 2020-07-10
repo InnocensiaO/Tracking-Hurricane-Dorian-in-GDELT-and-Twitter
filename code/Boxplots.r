@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #Boxplots
 #1.Tweets
 #Source data is in the Boxplotdatafolder
@@ -100,4 +99,3 @@ boxplot(z1$NEAR_DIST_KILOMETERS~z1$created_at, xlab= "Tweet dates", ylab="Distan
 
 
 
->>>>>>> 89007dfe6c10759cd82988c94da3787e561955ec
