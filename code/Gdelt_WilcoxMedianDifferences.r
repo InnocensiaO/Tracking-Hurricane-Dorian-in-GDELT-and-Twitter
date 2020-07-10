@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 setwd("/GDELTProximityData") #set the working dir
 #Source data is in the GDELTProximityData
 options(max.print=1000000)
@@ -127,5 +126,3 @@ medSept4_Sept5<-wilcox.test(TrackpointSept6_12PMGdeltSept4, TrackpointSept6_12PM
 medSept5_Sept6<-wilcox.test(TrackpointSept6_12PMGdeltSept5, TrackpointSept6_12PMGdeltSept6, mu=0, alt = "two.sided", paired = F, conf.int = T, conf.level = 0.99, exact = F, correct = F)
 
 
-
->>>>>>> 89007dfe6c10759cd82988c94da3787e561955ec
